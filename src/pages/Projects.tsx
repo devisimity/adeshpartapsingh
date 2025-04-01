@@ -26,9 +26,45 @@ const ProjectsPage = () => {
             className="max-w-5xl mx-auto mb-12"
           >
             <div className="flex justify-center mb-12">
-              <TabsList className="grid w-full max-w-md grid-cols-2 rounded-lg overflow-hidden border-2 border-techblue/30 dark:border-techblue/40">
-                <TabsTrigger value="projects" className="text-lg py-3 flex items-center justify-center rounded-none border-r border-techblue/20 dark:border-techblue/30">Projects</TabsTrigger>
-                <TabsTrigger value="experience" className="text-lg py-3 flex items-center justify-center rounded-none">Experience</TabsTrigger>
+              <TabsList className="relative flex w-full max-w-md overflow-hidden bg-transparent rounded-none border-0 p-0">
+                <div className="absolute inset-0 bg-gradient-to-r from-techblue/20 to-techblue/40 rounded-xl overflow-hidden backdrop-blur-sm border border-techblue/30" />
+                <div className="absolute bottom-0 h-[2px] w-1/2 bg-techblue transition-all duration-300" 
+                  style={{ 
+                    transform: selectedTab === "projects" ? "translateX(0)" : "translateX(100%)",
+                  }} 
+                />
+                <TabsTrigger 
+                  value="projects" 
+                  className="z-10 relative flex-1 text-lg py-4 px-6 font-medium text-foreground rounded-l-xl backdrop-blur-md transition-all duration-300 data-[state=active]:text-techblue data-[state=active]:font-semibold"
+                >
+                  <span className="flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-cpu">
+                      <rect x="4" y="4" width="16" height="16" rx="2"/>
+                      <rect x="9" y="9" width="6" height="6"/>
+                      <path d="M15 2v2"/>
+                      <path d="M15 20v2"/>
+                      <path d="M2 15h2"/>
+                      <path d="M20 15h2"/>
+                      <path d="M2 9h2"/>
+                      <path d="M20 9h2"/>
+                      <path d="M9 2v2"/>
+                      <path d="M9 20v2"/>
+                    </svg>
+                    Projects
+                  </span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="experience" 
+                  className="z-10 relative flex-1 text-lg py-4 px-6 font-medium text-foreground rounded-r-xl backdrop-blur-md transition-all duration-300 data-[state=active]:text-techblue data-[state=active]:font-semibold"
+                >
+                  <span className="flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-briefcase">
+                      <rect width="20" height="14" x="2" y="7" rx="2"/>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                    </svg>
+                    Experience
+                  </span>
+                </TabsTrigger>
               </TabsList>
             </div>
             

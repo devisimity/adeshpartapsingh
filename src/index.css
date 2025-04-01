@@ -112,4 +112,33 @@
   .tech-button {
     @apply relative overflow-hidden bg-techblue text-white px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-techblue/20;
   }
+
+  /* Tech tabs animation */
+  .tech-tabs-container {
+    @apply relative overflow-hidden;
+  }
+
+  .tech-tabs-container::before {
+    content: "";
+    @apply absolute -inset-[1px] bg-gradient-to-r from-techblue/30 to-techblue/50 rounded-xl blur-sm;
+    z-index: -1;
+  }
+
+  .tech-tab-indicator {
+    @apply absolute bottom-0 h-0.5 bg-techblue transition-all duration-300 ease-in-out;
+  }
+
+  .tech-tab {
+    @apply relative overflow-hidden;
+  }
+
+  .tech-tab::after {
+    content: "";
+    @apply absolute bottom-0 left-0 right-0 h-0.5 bg-techblue scale-x-0 transition-transform duration-300;
+    transform-origin: left;
+  }
+
+  .tech-tab[data-state="active"]::after {
+    @apply scale-x-100;
+  }
 }
