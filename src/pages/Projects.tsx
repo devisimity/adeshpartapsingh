@@ -176,10 +176,13 @@ const ProjectsPage = () => {
             className="max-w-5xl mx-auto mb-12"
           >
             <div className="flex justify-center mb-12">
-              <TabsList className="grid w-full max-w-md grid-cols-2">
-                <TabsTrigger value="projects" className="text-lg py-3">Projects</TabsTrigger>
-                <TabsTrigger value="experience" className="text-lg py-3">Experience</TabsTrigger>
-              </TabsList>
+              {/* Added border-2 and border-techblue/30 for the outline, with rounded-lg to match the image */}
+              <div className="border-2 border-techblue/30 dark:border-techblue/40 rounded-lg p-1 bg-gray-100/50 dark:bg-gray-800/50">
+                <TabsList className="grid w-full max-w-md grid-cols-2">
+                  <TabsTrigger value="projects" className="text-lg py-3">Projects</TabsTrigger>
+                  <TabsTrigger value="experience" className="text-lg py-3">Experience</TabsTrigger>
+                </TabsList>
+              </div>
             </div>
             
             <TabsContent value="projects">
