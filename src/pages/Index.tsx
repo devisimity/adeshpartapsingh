@@ -27,11 +27,11 @@ const HomePage = () => {
               className="space-y-6"
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
-                <span className="block">Mechatronics Engineering</span>
-                <span className="block text-techblue mt-2">Innovation & Precision</span>
+                <span className="block">Adesh Partap Singh</span>
+                <span className="block text-techblue mt-2">Mechatronics Engineering</span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-lg">
-                I create sophisticated robotic systems, automation solutions, and intelligent mechatronic devices that merge mechanics, electronics, and software.
+                I create sophisticated software, robotic systems, automation solutions, and intelligent mechatronic devices that merge mechanics, electronics, and software.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link to="/projects">
