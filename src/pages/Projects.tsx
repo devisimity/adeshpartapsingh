@@ -27,8 +27,8 @@ const ProjectsPage = () => {
           >
             <div className="flex justify-center mb-12">
               <TabsList className="grid w-full max-w-md grid-cols-2 rounded-lg overflow-hidden border-2 border-techblue/30 dark:border-techblue/40">
-                <TabsTrigger value="projects" className="text-lg py-3 rounded-none border-r border-techblue/20 dark:border-techblue/30">Projects</TabsTrigger>
-                <TabsTrigger value="experience" className="text-lg py-3 rounded-none">Experience</TabsTrigger>
+                <TabsTrigger value="projects" className="text-lg py-3 flex items-center justify-center rounded-none border-r border-techblue/20 dark:border-techblue/30">Projects</TabsTrigger>
+                <TabsTrigger value="experience" className="text-lg py-3 flex items-center justify-center rounded-none">Experience</TabsTrigger>
               </TabsList>
             </div>
             
