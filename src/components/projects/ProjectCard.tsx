@@ -28,7 +28,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
       className="tech-card group overflow-hidden"
     >
       <div className="relative h-48 overflow-hidden">
-        <AspectRatio ratio={16 / 9} className="bg-blue-100 dark:bg-blue-900/20">
+        <AspectRatio ratio={16 / 9} className="bg-gray-100 dark:bg-gray-800">
           <img
             src={project.image}
             alt={project.title}
