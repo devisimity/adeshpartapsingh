@@ -99,6 +99,7 @@ export const experiencesData = [
     company: "Tesla",
     role: "Controls Engineering Intern",
     duration: "May'25 - August'25",
+    location: "Fremont, California",
     description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
     highlights: [
       "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
@@ -111,6 +112,7 @@ export const experiencesData = [
     company: "Motorola Solutions Inc",
     role: "Software Development Co-op",
     duration: "Jan'25 - April'25",
+    location: "Chicago, Illinois",
     description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
     highlights: [
       "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
@@ -123,6 +125,7 @@ export const experiencesData = [
     company: "Medical Devices Solutions",
     role: "Mechatronics Design Engineer",
     duration: "2018 - 2021",
+    location: "Boston, Massachusetts",
     description: "Designed precision motion control systems for medical imaging and surgical equipment.",
     highlights: [
       "Developed ultra-precise positioning system for MRI-compatible surgical robot",
@@ -135,6 +138,7 @@ export const experiencesData = [
     company: "Smart Systems Lab, University Research",
     role: "Graduate Research Assistant",
     duration: "2016 - 2018",
+    location: "Toronto, Canada",
     description: "Conducted research on novel sensor fusion techniques and their application in autonomous systems.",
     highlights: [
       "Published 3 peer-reviewed papers on advanced sensor fusion algorithms",
