@@ -96,7 +96,7 @@ export const projectsData = [
 // Experience data
 export const experiencesData = [
     {
-    company: "Tesla
+    company: "Tesla",
     role: "Controls Engineering Intern",
     duration: "May'25 - August'25",
     description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
