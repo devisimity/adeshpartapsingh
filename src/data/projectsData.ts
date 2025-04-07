@@ -5,7 +5,7 @@ export const projectsData = [
     id: 1,
     title: "Autonomous Industrial Robot",
     description: "Designed and implemented an autonomous robot for manufacturing environments with advanced navigation capabilities and real-time obstacle avoidance.",
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "/lovable-uploads/bbc220fe-1d3e-43b6-a1d4-da913bfb2bec.png",
     technologies: ["ROS", "Python", "Computer Vision", "Embedded Systems"],
     categories: ["robotics", "automation"],
     details: [
