@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useToast } from '@/hooks/use-toast';
@@ -23,24 +22,43 @@ const ContactPage = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setLoading(false);
+    try {
+      const response = await fetch('https://formspree.io/f/mqapgdnv', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      
+      if (response.ok) {
+        toast({
+          title: "Message Sent",
+          description: "Thank you for your message. I'll get back to you soon!",
+        });
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
+      } else {
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
       toast({
-        title: "Message Sent",
-        description: "Thank you for your message. I'll get back to you soon!",
+        title: "Error",
+        description: "Failed to send message. Please try again later.",
+        variant: "destructive",
       });
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: '',
-      });
-    }, 1500);
+      console.error('Form submission error:', error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
