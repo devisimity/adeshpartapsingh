@@ -95,13 +95,25 @@ export const projectsData = [
 
 // Experience data
 export const experiencesData = [
+    {
+    company: "Tesla
+    role: "Controls Engineering Intern",
+    duration: "May'25 - August'25",
+    description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
+    highlights: [
+      "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
+      "Implemented advanced control algorithms resulting in 35% improvement in precision",
+      "Designed modular architecture allowing rapid reconfiguration for different tasks",
+      "Secured two patents for novel mechanical-electronic interfaces"
+    ]
+  },
   {
     company: "Motorola Solutions Inc",
     role: "Software Development Co-op",
-    duration: "Jan'25 - May'25",
-    description: "Development of next-generation mobile repeaters for industrial applications.",
+    duration: "Jan'25 - April'25",
+    description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
     highlights: [
-      "Programmed ",
+      "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
       "Implemented advanced control algorithms resulting in 35% improvement in precision",
       "Designed modular architecture allowing rapid reconfiguration for different tasks",
       "Secured two patents for novel mechanical-electronic interfaces"
