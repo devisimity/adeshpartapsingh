@@ -96,9 +96,9 @@ export const projectsData = [
 // Experience data
 export const experiencesData = [
   {
-    company: "Advanced Robotics Inc.",
-    role: "Senior Mechatronics Engineer",
-    duration: "2021 - Present",
+    company: "Motorola Solutions Inc",
+    role: "Software Development Co-op",
+    duration: "Jan'25 - Present",
     description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
     highlights: [
       "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
