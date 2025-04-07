@@ -159,7 +159,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-medium mb-1">Email</h3>
-                        <p className="text-gray-600 dark:text-gray-300">contact@mechtron.com</p>
+                        <p className="text-gray-600 dark:text-gray-300"ap29sing@uwaterloo.ca</p>
                       </div>
                     </CardContent>
                   </Card>
@@ -173,7 +173,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-medium mb-1">Phone</h3>
-                        <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                        <p className="text-gray-600 dark:text-gray-300">+1 (647) 937-5636</p>
                       </div>
                     </CardContent>
                   </Card>
@@ -188,7 +188,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-medium mb-1">Location</h3>
-                        <p className="text-gray-600 dark:text-gray-300">Tech Innovation Hub, Silicon Valley</p>
+                        <p className="text-gray-600 dark:text-gray-300">University Of Waterloo, Ontario</p>
                       </div>
                     </CardContent>
                   </Card>
