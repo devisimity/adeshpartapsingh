@@ -159,7 +159,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-medium mb-1">Email</h3>
-                        <p className="text-gray-600 dark:text-gray-300"ap29sing@uwaterloo.ca</p>
+                        <p className="text-gray-600 dark:text-gray-300">ap29sing@uwaterloo.ca</p>
                       </div>
                     </CardContent>
                   </Card>
