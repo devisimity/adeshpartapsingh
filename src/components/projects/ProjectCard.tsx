@@ -1,6 +1,7 @@
 
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 interface ProjectDetails {
   id: number;
@@ -27,11 +28,13 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
       className="tech-card group overflow-hidden"
     >
       <div className="relative h-48 overflow-hidden">
-        <img
-          src={project.image}
-          alt={project.title}
-          className="object-cover object-center w-full h-full transition-transform duration-500 group-hover:scale-110"
-        />
+        <AspectRatio ratio={16 / 9} className="bg-blue-100 dark:bg-blue-900/20">
+          <img
+            src={project.image}
+            alt={project.title}
+            className="object-cover object-center w-full h-full transition-transform duration-500 group-hover:scale-110"
+          />
+        </AspectRatio>
       </div>
       <div className="p-6">
         <div className="flex flex-wrap gap-2 mb-3">
