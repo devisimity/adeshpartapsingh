@@ -3,8 +3,8 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Autonomous Industrial Robot",
-    description: "Designed and implemented an autonomous robot for manufacturing environments with advanced navigation capabilities and real-time obstacle avoidance.",
+    title: "Stewarts Platform",
+    description: "Developed a 6 ",
     image: "/public/stewartsplatform.png",
     technologies: ["ROS", "Python", "Computer Vision", "Embedded Systems"],
     categories: ["robotics", "automation"],
@@ -18,7 +18,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Smart Agriculture Monitoring System",
+    title: "Battery Management System",
     description: "Developed an IoT-based system for monitoring and automating agricultural processes with real-time data collection and analysis.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["IoT", "ESP32", "MQTT", "Web Development"],
@@ -33,7 +33,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Precision Motion Control Platform",
+    title: "Battery Passports",
     description: "Created a high-precision motion control system for medical equipment with sub-micron positioning accuracy and advanced control algorithms.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["C++", "Motor Control", "FPGA", "Control Systems"],
@@ -48,7 +48,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "3D-Printed Prosthetic Hand",
+    title: "Digiresfolio",
     description: "Designed an affordable, 3D-printed prosthetic hand with EMG sensor integration for intuitive control by the user.",
     image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["CAD", "3D Printing", "Arduino", "EMG Sensing"],
@@ -63,7 +63,7 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "Energy Harvesting Wearable Device",
+    title: "JARVIS AI Assistant",
     description: "Developed a wearable device that harvests kinetic energy from body movement to power small electronic devices or charge batteries.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["Energy Harvesting", "Power Electronics", "PCB Design", "Embedded Systems"],
@@ -78,7 +78,7 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: "Automated Quality Inspection System",
+    title: "Flappy bird",
     description: "Created a machine vision system for automated quality control in manufacturing with real-time defect detection and classification.",
     image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["Computer Vision", "Machine Learning", "Python", "Industrial Automation"],
