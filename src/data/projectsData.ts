@@ -4,36 +4,36 @@ export const projectsData = [
   {
     id: 1,
     title: "Stewarts Platform",
-    description: "Developed a 6 ",
+    description: "Developed a 6 arms ball balancing robot ",
     image: "/public/stewartsplatform.png",
-    technologies: ["ROS", "Python", "Computer Vision", "Embedded Systems"],
+    technologies: ["Python", "Computer Vision", "Embedded Systems"],
     categories: ["robotics", "automation"],
     details: [
-      "Implemented SLAM algorithms for environment mapping",
-      "Integrated multiple sensors for robust perception",
-      "Developed fault-tolerant control systems",
+      "Used I2C to transfer real-time co-ordinates of ball from Camera to Arduino",
+      "Used UART to control a 6 pin Motor controller",
+      "Designed and printed parts of the robot using SolidWorks",
       "Created web-based monitoring dashboard"
     ],
-    date: "2023"
+    date: "2024"
   },
   {
-    id: 3,
-    title: "Battery Management System",
-    description: "Developed an IoT-based system for monitoring and automating agricultural processes with real-time data collection and analysis.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    id: 2,
+    title: "Digiresfolio",
+    description: "A platform for students and professionals to upload their projects and resumes.",
+    image: "",
     technologies: ["IoT", "ESP32", "MQTT", "Web Development"],
     categories: ["iot", "embedded"],
     details: [
-      "Designed custom PCBs for sensor nodes",
-      "Implemented low-power optimization techniques",
+      "Developed a full-stack web ap that allows students to upload their portfolios and share them with potential employers,
+      "Added 6 templates for students to choose from",
       "Created cloud-based data processing pipeline",
       "Developed mobile app for remote monitoring"
     ],
     date: "2022"
   },
   {
-    id: 5,
-    title: "Battery Passports",
+    id: 3,
+    title: "Battery Management System",
     description: "Created a high-precision motion control system for medical equipment with sub-micron positioning accuracy and advanced control algorithms.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["C++", "Motor Control", "FPGA", "Control Systems"],
@@ -47,8 +47,8 @@ export const projectsData = [
     date: "2022"
   },
   {
-    id: 2,
-    title: "Digiresfolio",
+    id: 4,
+    title: " JARVIS AI Assistant",
     description: "Designed an affordable, 3D-printed prosthetic hand with EMG sensor integration for intuitive control by the user.",
     image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["CAD", "3D Printing", "Arduino", "EMG Sensing"],
@@ -62,8 +62,8 @@ export const projectsData = [
     date: "2021"
   },
   {
-    id: 4,
-    title: "JARVIS AI Assistant",
+    id: 5,
+    title: "Battery Passports",
     description: "Developed a wearable device that harvests kinetic energy from body movement to power small electronic devices or charge batteries.",
     image: "https://drive.google.com/file/d/1BMEVaw6EwJGcP3F7tzLc9RTQapZMyISE/view?usp=sharing",
     technologies: ["Energy Harvesting", "Power Electronics", "PCB Design", "Embedded Systems"],
@@ -99,7 +99,7 @@ export const experiencesData = [
     company: "Tesla",
     role: "Controls Engineering Intern",
     duration: "May'25 - August'25",
-    location: "Fremont, California",
+    location: "San Diego, California",
     description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
     highlights: [
       "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
@@ -112,7 +112,7 @@ export const experiencesData = [
     company: "Motorola Solutions Inc",
     role: "Software Development Co-op",
     duration: "Jan'25 - April'25",
-    location: "Chicago, Illinois",
+    location: "Concord, Ontario",
     description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
     highlights: [
       "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
@@ -122,10 +122,10 @@ export const experiencesData = [
     ]
   },
   {
-    company: "Medical Devices Solutions",
-    role: "Mechatronics Design Engineer",
-    duration: "2018 - 2021",
-    location: "Boston, Massachusetts",
+    company: "Neutron Controls Engineer",
+    role: "Embedded Systems Engineer",
+    duration: "May 2024 - August 2024",
+    location: "Ottawa, Ontario",
     description: "Designed precision motion control systems for medical imaging and surgical equipment.",
     highlights: [
       "Developed ultra-precise positioning system for MRI-compatible surgical robot",
@@ -135,16 +135,13 @@ export const experiencesData = [
     ]
   },
   {
-    company: "Smart Systems Lab, University Research",
+    company: "Accelerated Systems Inc",
     role: "Graduate Research Assistant",
-    duration: "2016 - 2018",
-    location: "Toronto, Canada",
+    duration: "September 2023 - December 2023",
+    location: "Waterloo, Ontario",
     description: "Conducted research on novel sensor fusion techniques and their application in autonomous systems.",
     highlights: [
-      "Published 3 peer-reviewed papers on advanced sensor fusion algorithms",
-      "Developed proof-of-concept for multi-modal sensor integration",
-      "Created open-source software library for sensor calibration",
-      "Mentored undergraduate students on research projects"
+      "Designed a ".
     ]
   }
 ];
