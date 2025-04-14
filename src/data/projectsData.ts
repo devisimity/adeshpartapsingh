@@ -65,7 +65,7 @@ export const projectsData = [
     id: 5,
     title: "JARVIS AI Assistant",
     description: "Developed a wearable device that harvests kinetic energy from body movement to power small electronic devices or charge batteries.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://drive.google.com/file/d/1BMEVaw6EwJGcP3F7tzLc9RTQapZMyISE/view?usp=sharing",
     technologies: ["Energy Harvesting", "Power Electronics", "PCB Design", "Embedded Systems"],
     categories: ["embedded", "mechanical"],
     details: [
