@@ -17,7 +17,7 @@ export const projectsData = [
     date: "2023"
   },
   {
-    id: 2,
+    id: 3,
     title: "Battery Management System",
     description: "Developed an IoT-based system for monitoring and automating agricultural processes with real-time data collection and analysis.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -32,7 +32,7 @@ export const projectsData = [
     date: "2022"
   },
   {
-    id: 3,
+    id: 5,
     title: "Battery Passports",
     description: "Created a high-precision motion control system for medical equipment with sub-micron positioning accuracy and advanced control algorithms.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -47,7 +47,7 @@ export const projectsData = [
     date: "2022"
   },
   {
-    id: 4,
+    id: 2,
     title: "Digiresfolio",
     description: "Designed an affordable, 3D-printed prosthetic hand with EMG sensor integration for intuitive control by the user.",
     image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -62,7 +62,7 @@ export const projectsData = [
     date: "2021"
   },
   {
-    id: 5,
+    id: 4,
     title: "JARVIS AI Assistant",
     description: "Developed a wearable device that harvests kinetic energy from body movement to power small electronic devices or charge batteries.",
     image: "https://drive.google.com/file/d/1BMEVaw6EwJGcP3F7tzLc9RTQapZMyISE/view?usp=sharing",
