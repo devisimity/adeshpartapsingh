@@ -24,7 +24,7 @@ export const projectsData = [
     technologies: ["IoT", "ESP32", "MQTT", "Web Development"],
     categories: ["iot", "embedded"],
     details: [
-      "Developed a full-stack web ap that allows students to upload their portfolios and share them with potential employers,
+      "Developed a full-stack web app that allows students to upload their portfolios and share them with potential employers",
       "Added 6 templates for students to choose from",
       "Created cloud-based data processing pipeline",
       "Developed mobile app for remote monitoring"
@@ -141,7 +141,10 @@ export const experiencesData = [
     location: "Waterloo, Ontario",
     description: "Conducted research on novel sensor fusion techniques and their application in autonomous systems.",
     highlights: [
-      "Designed a ".
+      "Designed a novel sensor fusion algorithm for autonomous navigation",
+      "Implemented real-time data processing pipeline for multi-sensor systems",
+      "Published research findings in IEEE Robotics conference",
+      "Created open-source library for sensor fusion implementations"
     ]
   }
 ];
