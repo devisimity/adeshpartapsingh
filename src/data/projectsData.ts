@@ -114,10 +114,9 @@ export const experiencesData = [
     location: "Concord, Ontario",
     description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
     highlights: [
-      "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
-      "Implemented advanced control algorithms resulting in 35% improvement in precision",
-      "Designed modular architecture allowing rapid reconfiguration for different tasks",
-      "Secured two patents for novel mechanical-electronic interfaces"
+      "Built an internal dashboard to allow technicians to modify radio parameters in real time, improving communication reliability in field units.",
+      "Contributed to the development and stability of DVR, PDR, and radio communication systems.",
+      "Worked on signal stability testing software, contributing to improved system uptime and reduced communication drops.",
     ]
   },
   {
