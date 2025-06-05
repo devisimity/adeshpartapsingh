@@ -100,12 +100,11 @@ export const experiencesData = [
     role: "Controls Engineering Intern",
     duration: "May'25 - August'25",
     location: "San Diego, California",
-    description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
+    description: "Controls Engineer responsible for monitoring and optimizing environmental control systems in a cell manufacturing unit to ensure stable and efficient operation..",
     highlights: [
-      "Led team of 5 engineers in developing robotic arm with 7 degrees of freedom",
-      "Implemented advanced control algorithms resulting in 35% improvement in precision",
-      "Designed modular architecture allowing rapid reconfiguration for different tasks",
-      "Secured two patents for novel mechanical-electronic interfaces"
+      "Design, implement, and maintain PLC-based control systems for temperature, airflow, and humidity regulation.",
+      "Utilize data visualization tools like Grafana to display and analyze heat transfer and other process data in real-time.",
+      "Created a custom HMI (Human-Machine Interface) enabling operators to input packaging information, which is transmitted over TCP/IP to automate the label printing process.",
     ]
   },
   {
