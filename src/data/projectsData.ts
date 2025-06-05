@@ -1,4 +1,3 @@
-
 // Project data
 export const projectsData = [
   {
@@ -80,7 +79,7 @@ export const projectsData = [
     id: 6,
     title: "Flappy bird",
     description: "Created a machine vision system for automated quality control in manufacturing with real-time defect detection and classification.",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "/lovable-uploads/4b8456c3-b64e-41a9-b9f2-e8b28be41d07.png",
     technologies: ["Computer Vision", "Machine Learning", "Python", "Industrial Automation"],
     categories: ["automation", "robotics"],
     details: [
