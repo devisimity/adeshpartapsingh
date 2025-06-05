@@ -115,8 +115,9 @@ export const experiencesData = [
     description: "Leading the development of next-generation autonomous robotic systems for industrial applications.",
     highlights: [
       "Built an internal dashboard to allow technicians to modify radio parameters in real time, improving communication reliability in field units.",
-      "Contributed to the development and stability of DVR, PDR, and radio communication systems.",
+      "Conducted network vulnerability scans using Nessus and Tenable.io to identify open ports, insecure gateways, and potential threats prior to deployment of communication devices used by law enforcement.",
       "Worked on signal stability testing software, contributing to improved system uptime and reduced communication drops.",
+      "Secured two patents for novel mechanical-electronic interfaces"
     ]
   },
   {
