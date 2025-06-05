@@ -1,11 +1,10 @@
-
 // Project data
 export const projectsData = [
   {
     id: 1,
     title: "Stewarts Platform",
     description: "Developed a 6 arms ball balancing robot ",
-    image: "/public/stewartsplatform.png",
+    image: "/lovable-uploads/bbc220fe-1d3e-43b6-a1d4-da913bfb2bec.png",
     technologies: ["Python", "Computer Vision", "Embedded Systems"],
     categories: ["robotics", "automation"],
     details: [
@@ -20,7 +19,7 @@ export const projectsData = [
     id: 2,
     title: "Digiresfolio",
     description: "A platform for students and professionals to upload their projects and resumes.",
-    image: "",
+    image: "/lovable-uploads/66c657f2-abd6-45b0-afa3-1b81c4b352e2.png",
     technologies: ["IoT", "ESP32", "MQTT", "Web Development"],
     categories: ["iot", "embedded"],
     details: [
