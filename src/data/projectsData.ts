@@ -48,10 +48,10 @@ export const projectsData = [
   {
     id: 4,
     title: " JARVIS AI Assistant",
-    description: "Built a Python-based, voice-activated assistant using GPT and APIs to automate tasks like app control, web search, and email.Integrated speech recognition and text-to-speech for seamless natural language interaction.",
+    description: "Designed an affordable, 3D-printed prosthetic hand with EMG sensor integration for intuitive control by the user.",
     image: "/lovable-uploads/cfe62250-a15b-4718-a769-95e611ab008b.png",
     technologies: ["CAD", "3D Printing", "Arduino", "EMG Sensing"],
-    categories: ["mechanical", "embedded"],
+    categories: ["embedded"],
     details: [
       "Created parametric design for custom sizing",
       "Developed EMG signal processing algorithms",
@@ -66,7 +66,7 @@ export const projectsData = [
     description: "Developed a wearable device that harvests kinetic energy from body movement to power small electronic devices or charge batteries.",
     image: "/lovable-uploads/ddabb65d-bbcf-4aa0-8c86-335d1b4fd973.png",
     technologies: ["Energy Harvesting", "Power Electronics", "PCB Design", "Embedded Systems"],
-    categories: ["embedded", "mechanical"],
+    categories: ["embedded"],
     details: [
       "Designed efficient piezoelectric energy harvesting system",
       "Created ultra-low power management circuits",
