@@ -48,7 +48,7 @@ export const projectsData = [
   {
     id: 4,
     title: " JARVIS AI Assistant",
-    description: "Designed an affordable, 3D-printed prosthetic hand with EMG sensor integration for intuitive control by the user.",
+    description: "Built a Python-based, voice-activated assistant using GPT and APIs to automate tasks like app control, web search, and email.Integrated speech recognition and text-to-speech for seamless natural language interaction.",
     image: "/lovable-uploads/cfe62250-a15b-4718-a769-95e611ab008b.png",
     technologies: ["CAD", "3D Printing", "Arduino", "EMG Sensing"],
     categories: ["mechanical", "embedded"],
