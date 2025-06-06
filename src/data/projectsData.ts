@@ -1,4 +1,3 @@
-
 // Project data
 export const projectsData = [
   {
@@ -7,7 +6,7 @@ export const projectsData = [
     description: "Developed a 6 arms ball balancing robot ",
     image: "/lovable-uploads/bbc220fe-1d3e-43b6-a1d4-da913bfb2bec.png",
     technologies: ["Python", "Computer Vision", "Embedded Systems"],
-    categories: ["robotics", "automation"],
+    categories: ["robotics"],
     details: [
       "Used I2C to transfer real-time co-ordinates of ball from Camera to Arduino",
       "Used UART to control a 6 pin Motor controller",
@@ -22,7 +21,7 @@ export const projectsData = [
     description: "A platform for students and professionals to upload their projects and resumes.",
     image: "/lovable-uploads/66c657f2-abd6-45b0-afa3-1b81c4b352e2.png",
     technologies: ["IoT", "ESP32", "MQTT", "Web Development"],
-    categories: ["iot", "embedded"],
+    categories: ["software"],
     details: [
       "Developed a full-stack web app that allows students to upload their portfolios and share them with potential employers",
       "Added 6 templates for students to choose from",
@@ -37,7 +36,7 @@ export const projectsData = [
     description: "Created a high-precision motion control system for medical equipment with sub-micron positioning accuracy and advanced control algorithms.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["C++", "Motor Control", "FPGA", "Control Systems"],
-    categories: ["control", "embedded"],
+    categories: ["embedded"],
     details: [
       "Developed adaptive PID control algorithms",
       "Implemented FPGA-based real-time control",
@@ -52,7 +51,7 @@ export const projectsData = [
     description: "Designed an affordable, 3D-printed prosthetic hand with EMG sensor integration for intuitive control by the user.",
     image: "/lovable-uploads/cfe62250-a15b-4718-a769-95e611ab008b.png",
     technologies: ["CAD", "3D Printing", "Arduino", "EMG Sensing"],
-    categories: ["embedded"],
+    categories: ["software"],
     details: [
       "Created parametric design for custom sizing",
       "Developed EMG signal processing algorithms",
@@ -67,7 +66,7 @@ export const projectsData = [
     description: "Developed a wearable device that harvests kinetic energy from body movement to power small electronic devices or charge batteries.",
     image: "/lovable-uploads/ddabb65d-bbcf-4aa0-8c86-335d1b4fd973.png",
     technologies: ["Energy Harvesting", "Power Electronics", "PCB Design", "Embedded Systems"],
-    categories: ["embedded"],
+    categories: ["embedded", "mechanical"],
     details: [
       "Designed efficient piezoelectric energy harvesting system",
       "Created ultra-low power management circuits",
@@ -82,7 +81,7 @@ export const projectsData = [
     description: "Created a machine vision system for automated quality control in manufacturing with real-time defect detection and classification.",
     image: "/lovable-uploads/4b8456c3-b64e-41a9-b9f2-e8b28be41d07.png",
     technologies: ["Computer Vision", "Machine Learning", "Python", "Industrial Automation"],
-    categories: ["automation", "robotics"],
+    categories: ["control","iot"],
     details: [
       "Implemented deep learning-based defect detection",
       "Developed custom lighting and imaging system",
@@ -154,7 +153,7 @@ export const categories = [
   { value: "robotics", label: "Robotics" },
   { value: "automation", label: "Automation" },
   { value: "embedded", label: "Embedded Systems" },
-  { value: "software", label: "Software" },
+  { value: "mechanical", label: "Mechanical Design" },
   { value: "iot", label: "IoT" },
   { value: "control", label: "Control Systems" },
 ];
