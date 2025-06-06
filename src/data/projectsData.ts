@@ -77,16 +77,16 @@ export const projectsData = [
   },
   {
     id: 6,
-    title: "Flappy bird",
-    description: "Created a machine vision system for automated quality control in manufacturing with real-time defect detection and classification.",
+    title: "Data Visualization Dashboard",
+    description: "Built a real-time data capture and visualization system using Grafana and InfluxDB to monitor temperature and rate of heat exchange.Programmed custom dashboards and data pipelines for live industrial metrics and performance analysis..",
     image: "/lovable-uploads/4b8456c3-b64e-41a9-b9f2-e8b28be41d07.png",
-    technologies: ["Computer Vision", "Machine Learning", "Python", "Industrial Automation"],
+    technologies: ["Data Capture", "Python", "Industrial Automation"],
     categories: ["control","iot"],
     details: [
-      "Implemented deep learning-based defect detection",
-      "Developed custom lighting and imaging system",
-      "Created production line integration framework",
-      "Designed intuitive operator interface"
+      "Designed a real-time data visualization system using Grafana and InfluxDB to monitor temperature and rate of heat exchange.",
+      "Programmed data pipelines to capture and store live sensor data from industrial equipment using Python and REST APIs.",
+      "Developed dynamic dashboards with custom panels for trend analysis, threshold alerts, and operational insights.",
+      "Implemented data aggregation and transformation logic to ensure accurate and meaningful real-time display of metrics."
     ],
     date: "2020"
   }
@@ -153,7 +153,7 @@ export const categories = [
   { value: "robotics", label: "Robotics" },
   { value: "automation", label: "Automation" },
   { value: "embedded", label: "Embedded Systems" },
-  { value: "mechanical", label: "Mechanical Design" },
+  { value: "software", label: "Software" },
   { value: "iot", label: "IoT" },
   { value: "control", label: "Control Systems" },
 ];
