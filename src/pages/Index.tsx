@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
@@ -56,35 +55,12 @@ const HomePage = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="relative mx-auto lg:mx-0 max-w-md"
             >
-              <div className="aspect-square rounded-full bg-blue-100 dark:bg-blue-900/20 p-6 relative">
-                <svg viewBox="0 0 200 200" className="w-full h-full text-techblue z-10">
-                  <path
-                    fill="currentColor"
-                    d="M100,0 C155.228,0 200,44.772 200,100 C200,155.228 155.228,200 100,200 C44.772,200 0,155.228 0,100 C0,44.772 44.772,0 100,0 Z"
-                    opacity="0.2"
-                  />
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeDasharray="8 4"
-                    d="M100,20 C143.018,20 178,54.982 178,98 C178,141.018 143.018,176 100,176 C56.982,176 22,141.018 22,98 C22,54.982 56.982,20 100,20 Z"
-                  />
-                  <g transform="translate(62, 60)">
-                    <rect x="0" y="0" width="76" height="76" rx="8" fill="currentColor" opacity="0.2" />
-                    <rect x="10" y="10" width="56" height="56" rx="4" fill="currentColor" opacity="0.4" />
-                    <circle cx="38" cy="38" r="15" fill="white" />
-                    <circle cx="38" cy="38" r="8" fill="currentColor" />
-                  </g>
-                  <g transform="translate(50, 50)">
-                    <path
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="4"
-                      d="M0,0 C27.614,0 50,22.386 50,50 C50,77.614 27.614,100 0,100 C-27.614,100 -50,77.614 -50,50 C-50,22.386 -27.614,0 0,0 Z"
-                    />
-                  </g>
-                </svg>
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/61031294-6e27-471c-9c0b-e74a7cd03116.png"
+                  alt="Robot"
+                  className="w-full h-auto max-w-sm mx-auto rounded-lg shadow-lg"
+                />
                 
                 {/* Small decorative gears */}
                 <svg className="absolute top-10 -left-5 w-10 h-10 text-techblue animate-gear-spin" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
