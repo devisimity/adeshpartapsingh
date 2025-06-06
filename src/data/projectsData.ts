@@ -1,3 +1,4 @@
+
 // Project data
 export const projectsData = [
   {
@@ -153,7 +154,7 @@ export const categories = [
   { value: "robotics", label: "Robotics" },
   { value: "automation", label: "Automation" },
   { value: "embedded", label: "Embedded Systems" },
-  { value: "mechanical", label: "Mechanical Design" },
+  { value: "software", label: "Software" },
   { value: "iot", label: "IoT" },
   { value: "control", label: "Control Systems" },
 ];
