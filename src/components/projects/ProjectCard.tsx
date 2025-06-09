@@ -17,15 +17,17 @@ interface ProjectDetails {
 interface ProjectCardProps {
   project: ProjectDetails;
   index: number;
+  onClick: (project: ProjectDetails) => void;
 }
 
-const ProjectCard = ({ project, index }: ProjectCardProps) => {
+const ProjectCard = ({ project, index, onClick }: ProjectCardProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: index * 0.1 }}
-      className="tech-card group overflow-hidden"
+      className="tech-card group overflow-hidden cursor-pointer"
+      onClick={() => onClick(project)}
     >
       <div className="relative h-48 overflow-hidden">
         <AspectRatio ratio={16 / 9} className="bg-gray-100 dark:bg-gray-800">
@@ -55,6 +57,9 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
               <li key={i}>{detail}</li>
             ))}
           </ul>
+          {project.details.length > 2 && (
+            <p className="text-xs text-techblue mt-2">Click to see all features...</p>
+          )}
         </div>
         <div className="flex flex-wrap gap-2 mt-4">
           {project.technologies.map((tech, i) => (

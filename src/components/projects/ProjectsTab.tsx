@@ -1,14 +1,38 @@
 
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
+import ProjectDialog from "./ProjectDialog";
 import { projectsData, categories } from "@/data/projectsData";
+
+interface ProjectDetails {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  categories: string[];
+  details: string[];
+  date: string;
+}
 
 const ProjectsTab = () => {
   const [activeCategory, setActiveCategory] = useState("all");
+  const [selectedProject, setSelectedProject] = useState<ProjectDetails | null>(null);
+  const [dialogOpen, setDialogOpen] = useState(false);
 
   const filteredProjects = activeCategory === "all"
     ? projectsData
     : projectsData.filter(project => project.categories.includes(activeCategory));
+
+  const handleProjectClick = (project: ProjectDetails) => {
+    setSelectedProject(project);
+    setDialogOpen(true);
+  };
+
+  const handleCloseDialog = () => {
+    setDialogOpen(false);
+    setSelectedProject(null);
+  };
 
   return (
     <>
@@ -32,7 +56,12 @@ const ProjectsTab = () => {
       {/* Projects grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {filteredProjects.map((project, index) => (
-          <ProjectCard key={project.id} project={project} index={index} />
+          <ProjectCard 
+            key={project.id} 
+            project={project} 
+            index={index} 
+            onClick={handleProjectClick}
+          />
         ))}
       </div>
       
@@ -59,6 +88,13 @@ const ProjectsTab = () => {
           </p>
         </div>
       )}
+
+      {/* Project Dialog */}
+      <ProjectDialog 
+        project={selectedProject}
+        open={dialogOpen}
+        onClose={handleCloseDialog}
+      />
     </>
   );
 };
