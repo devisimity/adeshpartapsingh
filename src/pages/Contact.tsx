@@ -107,7 +107,7 @@ const ContactPage = () => {
                         type="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="john@example.com"
+                        placeholder="ap29sing@uwaterloo.ca"
                         required
                         className="w-full"
                       />
