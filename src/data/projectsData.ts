@@ -11,7 +11,7 @@ export const projectsData = [
       "Used I2C to transfer real-time co-ordinates of ball from Camera to Arduino",
       "Used UART to control a 6 pin Motor controller",
       "Designed and printed parts of the robot using SolidWorks",
-      "Created web-based monitoring dashboard"
+      "Created web-based monitoring dashboard",
       "Tuned multi-axis PID controllers in Python/C++ for fast, stable response and minimized overshoot during dynamic balancing tasks."
     ],
     date: "2024"
