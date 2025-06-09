@@ -95,9 +95,9 @@ export const projectsData = [
     id: 7,
     title: "Zebra Printer Automation",
     description: "Developed a fully automated label printing system using Zebra ZPL protocol, integrated into Ignition HMI to streamline part labeling across a high-volume Tesla production line.",
-    image: "/lovable-uploads/4b8456c3-b64e-41a9-b9f2-e8b28be41d07.png",
-    technologies: ["Data Capture", "Python", "Industrial Automation"],
-    categories: ["control","iot"],
+    image: "/lovable-uploads/18401b4d-ef59-44a0-8732-4c9eea9424c1.png",
+    technologies: ["ZPL Protocol", "Python", "Industrial Automation", "HMI"],
+    categories: ["control","automation"],
     details: [
       "Engineered a dynamic HMI screen with real-time template selection and input validation to support multiple product lines and version-controlled label data.",
       "Programmed Python-based backend logic to format user inputs into ZPL strings and transmit them over TCP/IP directly to Zebra printers, eliminating manual steps.",
