@@ -18,7 +18,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Digiresfolio",
+    title: "Digiresfolio.com",
     description: "A platform for students and professionals to upload their projects and resumes.",
     image: "/lovable-uploads/66c657f2-abd6-45b0-afa3-1b81c4b352e2.png",
     technologies: ["IoT", "ESP32", "MQTT", "Web Development"],
@@ -93,6 +93,36 @@ export const projectsData = [
   },
     {
     id: 7,
+    title: "Zebra Printer Automation",
+    description: "Developed a fully automated label printing system using Zebra ZPL protocol, integrated into Ignition HMI to streamline part labeling across a high-volume Tesla production line.",
+    image: "/lovable-uploads/18401b4d-ef59-44a0-8732-4c9eea9424c1.png",
+    technologies: ["ZPL Protocol", "Python", "Industrial Automation", "HMI"],
+    categories: ["control","automation"],
+    details: [
+      "Engineered a dynamic HMI screen with real-time template selection and input validation to support multiple product lines and version-controlled label data.",
+      "Programmed Python-based backend logic to format user inputs into ZPL strings and transmit them over TCP/IP directly to Zebra printers, eliminating manual steps.",
+      "Collaborated with controls and MES teams to synchronize label printing with plant-wide material tracking and inventory flow.",
+      "Implemented data aggregation and transformation logic to ensure accurate and meaningful real-time display of metrics."
+    ],
+    date: "2020"
+  },
+  {
+    id: 8,
+    title: "Zebra Printer Automation",
+    description: "Developed a fully automated label printing system using Zebra ZPL protocol, integrated into Ignition HMI to streamline part labeling across a high-volume Tesla production line.",
+    image: "/lovable-uploads/18401b4d-ef59-44a0-8732-4c9eea9424c1.png",
+    technologies: ["ZPL Protocol", "Python", "Industrial Automation", "HMI"],
+    categories: ["control","automation"],
+    details: [
+      "Engineered a dynamic HMI screen with real-time template selection and input validation to support multiple product lines and version-controlled label data.",
+      "Programmed Python-based backend logic to format user inputs into ZPL strings and transmit them over TCP/IP directly to Zebra printers, eliminating manual steps.",
+      "Collaborated with controls and MES teams to synchronize label printing with plant-wide material tracking and inventory flow.",
+      "Implemented data aggregation and transformation logic to ensure accurate and meaningful real-time display of metrics."
+    ],
+    date: "2020"
+  },
+  {
+    id: 9,
     title: "Zebra Printer Automation",
     description: "Developed a fully automated label printing system using Zebra ZPL protocol, integrated into Ignition HMI to streamline part labeling across a high-volume Tesla production line.",
     image: "/lovable-uploads/18401b4d-ef59-44a0-8732-4c9eea9424c1.png",
