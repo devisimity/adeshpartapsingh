@@ -29,22 +29,22 @@ export const projectsData = [
       "Created cloud-based data processing pipeline",
       "Developed mobile app for remote monitoring"
     ],
-    date: "2022"
+    date: "2024"
   },
   {
     id: 3,
     title: "Battery Management System",
-    description: "Created a high-precision motion control system for medical equipment with sub-micron positioning accuracy and advanced control algorithms.",
+    description: "Designed and developed a custom Battery Management System (BMS) PCB for a high-voltage lithium-ion battery pack, including cell monitoring, balancing, and protection circuits.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["C++", "Motor Control", "FPGA", "Control Systems"],
     categories: ["embedded"],
     details: [
-      "Developed adaptive PID control algorithms",
-      "Implemented FPGA-based real-time control",
-      "Created calibration routines for high precision",
-      "Designed user-friendly configuration interface"
+      "Programmed embedded firmware to monitor cell voltages and temperatures in real-time, implementing over-voltage, under-voltage, over-temperature, and short-circuit protection algorithms.",
+      "Implemented I2C/SPI communication between the microcontroller and monitoring ICs; utilized CAN bus for external ECU communication.",
+      "Collaborated with mechanical and thermal teams to integrate the BMS into the full battery enclosure and meet automotive-grade thermal limits.",
+      "Designed user-friendly user interface to show values on a screen"
     ],
-    date: "2022"
+    date: "2023"
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ export const projectsData = [
       "Implemented lightweight, durable mechanisms",
       "Designed low-cost control electronics"
     ],
-    date: "2021"
+    date: "2022"
   },
   {
     id: 5,
@@ -74,12 +74,12 @@ export const projectsData = [
       "Implemented adaptive power optimization algorithms",
       "Developed compact, ergonomic form factor"
     ],
-    date: "2021"
+    date: "2023"
   },
   {
     id: 6,
-    title: "Data Visualization Dashboard",
-    description: "Built a real-time data capture and visualization system using Grafana and InfluxDB to monitor temperature and rate of heat exchange.Programmed custom dashboards and data pipelines for live industrial metrics and performance analysis..",
+    title: "Zebra Printer Automation"
+    description: "Developed a fully automated label printing system using Zebra ZPL protocol, integrated into Ignition HMI to streamline part labeling across a high-volume Tesla production line.",
     image: "/lovable-uploads/4b8456c3-b64e-41a9-b9f2-e8b28be41d07.png",
     technologies: ["Data Capture", "Python", "Industrial Automation"],
     categories: ["control","iot"],
@@ -87,9 +87,10 @@ export const projectsData = [
       "Designed a real-time data visualization system using Grafana and InfluxDB to monitor temperature and rate of heat exchange.",
       "Programmed data pipelines to capture and store live sensor data from industrial equipment using Python and REST APIs.",
       "Developed dynamic dashboards with custom panels for trend analysis, threshold alerts, and operational insights.",
-      "Implemented data aggregation and transformation logic to ensure accurate and meaningful real-time display of metrics."
+      "Implemented data aggregation and transformation logic to ensure accurate and meaningful real-time display of metrics.",
+      "Programmed custom dashboards and data pipelines for live industrial metrics and performance analysis."
     ],
-    date: "2020"
+    date: "2025"
   },
     {
     id: 7,
@@ -104,7 +105,7 @@ export const projectsData = [
       "Developed dynamic dashboards with custom panels for trend analysis, threshold alerts, and operational insights.",
       "Implemented data aggregation and transformation logic to ensure accurate and meaningful real-time display of metrics."
     ],
-    date: "2020"
+    date: "2025"
   }
 ];
 
