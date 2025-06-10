@@ -54,10 +54,10 @@ export const projectsData = [
     technologies: ["CAD", "3D Printing", "Arduino", "EMG Sensing"],
     categories: ["software"],
     details: [
-      "Created parametric design for custom sizing",
-      "Developed EMG signal processing algorithms",
-      "Implemented lightweight, durable mechanisms",
-      "Designed low-cost control electronics"
+      "Developed a desktop AI assistant (Jarvis) that automates tasks like replying to emails, booking meetings, and opening websites using natural language commands.",
+      "Integrated with n8n workflows to trigger backend automation such as calendar scheduling, web navigation, and third-party app actions.",
+      "Leveraged OpenAI’s GPT model for conversational context and intelligent task interpretation.",
+      "Built a seamless voice or text interface for real-time interaction, enhancing user productivity and task efficiency."
     ],
     date: "2021"
   },
@@ -69,10 +69,10 @@ export const projectsData = [
     technologies: ["Energy Harvesting", "Power Electronics", "PCB Design", "Embedded Systems"],
     categories: ["embedded", "mechanical"],
     details: [
-      "Designed efficient piezoelectric energy harvesting system",
-      "Created ultra-low power management circuits",
-      "Implemented adaptive power optimization algorithms",
-      "Developed compact, ergonomic form factor"
+      "Developed a Battery Passport system to store and track individual cell data using SEMPER NOR Flash memory.",
+      "Established SPI communication between SEMPER NOR Flash and Infineon TLE9018 to transfer and log real-time cell voltage and temperature data.",
+      "Designed a scalable data structure for storing per-cell diagnostics, enabling lifecycle tracking and traceability.",
+      "Optimized SPI protocol handling for efficient read/write operations between the memory module and BMS controller."
     ],
     date: "2021"
   },
