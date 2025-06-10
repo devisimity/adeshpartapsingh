@@ -34,15 +34,14 @@ export const projectsData = [
   {
     id: 3,
     title: "Battery Management System",
-    description: "Created a high-precision motion control system for medical equipment with sub-micron positioning accuracy and advanced control algorithms.",
+    description: "Battery Management System (BMS) using Infineon TLE9018.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["C++", "Motor Control", "FPGA", "Control Systems"],
     categories: ["embedded"],
     details: [
-      "Developed adaptive PID control algorithms",
-      "Implemented FPGA-based real-time control",
-      "Created calibration routines for high precision",
-      "Designed user-friendly configuration interface"
+      "Designed a Battery Management System (BMS) using Infineon TLE9018 for passive cell balancing, with SPI communication to the TC399 microcontroller.",
+      "Implemented cell monitoring and balancing logic to ensure voltage uniformity across cells, improving pack efficiency and safety.",
+      "Configured SPI communication protocols between the TLE9018 daisy-chained cell monitors and the Aurix TC399 for real-time diagnostics and control."
     ],
     date: "2022"
   },
