@@ -90,20 +90,20 @@ export const projectsData = [
     ],
     date: "2020"
   },
-    {
+  {
     id: 7,
-    title: "Zebra Printer Automation",
-    description: "Developed a fully automated label printing system using Zebra ZPL protocol, integrated into Ignition HMI to streamline part labeling across a high-volume Tesla production line.",
+    title: "Trading Bot – Personal Project",
+    description: "Developed an automated stock trading bot in Python using yfinance for live market data.",
     image: "/lovable-uploads/18401b4d-ef59-44a0-8732-4c9eea9424c1.png",
-    technologies: ["ZPL Protocol", "Python", "Industrial Automation", "HMI"],
-    categories: ["control","automation"],
+    technologies: ["Python", "yfinance", "Algorithmic Trading", "OOP Design"],
+    categories: ["software"],
     details: [
-      "Engineered a dynamic HMI screen with real-time template selection and input validation to support multiple product lines and version-controlled label data.",
-      "Programmed Python-based backend logic to format user inputs into ZPL strings and transmit them over TCP/IP directly to Zebra printers, eliminating manual steps.",
-      "Collaborated with controls and MES teams to synchronize label printing with plant-wide material tracking and inventory flow.",
-      "Implemented data aggregation and transformation logic to ensure accurate and meaningful real-time display of metrics."
+      "Implemented a buy strategy that triggers when stock price drops ≥10% below a dynamically calculated stable price (5-day moving average).",
+      "Designed a modular architecture with price monitoring, buy-condition logic, and mock trade execution, easily extendable to broker APIs (Alpaca, Interactive Brokers, Zerodha).",
+      "Built with clean, professional coding practices including OOP design, error handling, and configurable monitoring intervals.",
+      "Provides real-time insights via periodic logs and scalable for integration into production-grade algorithmic trading systems."
     ],
-    date: "2020"
+    date: "2024"
   },
   {
     id: 8,
