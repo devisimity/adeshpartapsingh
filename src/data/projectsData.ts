@@ -94,7 +94,7 @@ export const projectsData = [
     id: 7,
     title: "Trading Bot – Personal Project",
     description: "Developed an automated stock trading bot in Python using yfinance for live market data.",
-    image: "/lovable-uploads/18401b4d-ef59-44a0-8732-4c9eea9424c1.png",
+    image: "/lovable-uploads/695ade93-6861-4b65-b3eb-17f08cbdab5d.png",
     technologies: ["Python", "yfinance", "Algorithmic Trading", "OOP Design"],
     categories: ["software"],
     details: [
