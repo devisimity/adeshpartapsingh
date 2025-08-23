@@ -122,16 +122,17 @@ export const projectsData = [
   },
   {
     id: 9,
-    title: "Zebra Printer Automation",
-    description: "Developed a fully automated label printing system using Zebra ZPL protocol, integrated into Ignition HMI to streamline part labeling across a high-volume Tesla production line.",
-    image: "/lovable-uploads/18401b4d-ef59-44a0-8732-4c9eea9424c1.png",
-    technologies: ["ZPL Protocol", "Python", "Industrial Automation", "HMI"],
-    categories: ["control","automation"],
+    title: "FPGA Digital Design Projects",
+    description: "Designed and implemented a Traffic Light Controller using a state machine architecture on FPGA, ensuring reliable sequencing with well-defined timing constraints.",
+    image: "/lovable-uploads/7c57d871-317c-40d1-afef-34a4858c88dd.png",
+    technologies: ["FPGA", "Verilog", "VHDL", "Digital Logic Design"],
+    categories: ["embedded"],
     details: [
-      "Engineered a dynamic HMI screen with real-time template selection and input validation to support multiple product lines and version-controlled label data.",
-      "Programmed Python-based backend logic to format user inputs into ZPL strings and transmit them over TCP/IP directly to Zebra printers, eliminating manual steps.",
-      "Collaborated with controls and MES teams to synchronize label printing with plant-wide material tracking and inventory flow.",
-      "Implemented data aggregation and transformation logic to ensure accurate and meaningful real-time display of metrics."
+      "Designed and implemented a Traffic Light Controller using a state machine architecture on FPGA, ensuring reliable sequencing with well-defined timing constraints.",
+      "Built an 8-digit LED Encoder capable of efficiently displaying multiplexed outputs, optimizing timing and resource utilization on FPGA fabric.",
+      "Developed projects using Verilog/VHDL with simulation and synthesis, validating designs through testbenches and FPGA board deployment.",
+      "Gained experience with finite state machines (FSMs), timing analysis, and hardware description languages, strengthening understanding of digital logic design.",
+      "Established a foundation for scaling designs toward complex FPGA-based systems, including signal processing, communication protocols, and embedded controllers."
     ],
     date: "2020"
   }
