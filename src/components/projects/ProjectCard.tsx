@@ -21,6 +21,9 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ project, index, onClick }: ProjectCardProps) => {
+  const cleanTitle = (title: string) => {
+    return title.replace(/\s*–\s*Personal Project/gi, '').trim();
+  };
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -46,7 +49,7 @@ const ProjectCard = ({ project, index, onClick }: ProjectCardProps) => {
             </Badge>
           ))}
         </div>
-        <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+        <h3 className="text-xl font-bold mb-2">{cleanTitle(project.title)}</h3>
         <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
           {project.description}
         </p>
