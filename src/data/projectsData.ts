@@ -63,7 +63,7 @@ export const projectsData = [
   {
     id: 5,
     title: "Battery Passports",
-    description: "Developed a wearable device that harvests kinetic energy from body movement to power small electronic devices or charge batteries.",
+    description: "A digital record system that tracks key battery performance metrics including the number of reusage cycles, State of Health (SOH), State of Charge (SOC), and other critical data. This passport ensures transparency, enhances battery lifecycle management, and supports sustainability by providing a reliable history of battery usage and condition.",
     image: "/lovable-uploads/ddabb65d-bbcf-4aa0-8c86-335d1b4fd973.png",
     technologies: ["Energy Harvesting", "Power Electronics", "PCB Design", "Embedded Systems"],
     categories: ["embedded", "mechanical"],
