@@ -48,7 +48,7 @@ export const projectsData = [
   {
     id: 4,
     title: " JARVIS AI Assistant",
-    description: "Designed an affordable, 3D-printed prosthetic hand with EMG sensor integration for intuitive control by the user.",
+    description: "Jarvis is a Python-powered desktop assistant that automates tasks and improves productivity. It uses natural language processing (NLP) and voice recognition to perform actions like opening apps, setting reminders, and fetching information. It integrates with web scraping tools, system monitoring, and smart devices. Customizable and extendable, Jarvis can be tailored to suit individual needs. It enhances your workflow, making everyday tasks more efficient and interactive.",
     image: "/lovable-uploads/cfe62250-a15b-4718-a769-95e611ab008b.png",
     technologies: ["CAD", "3D Printing", "Arduino", "EMG Sensing"],
     categories: ["software"],
