@@ -185,10 +185,10 @@ export const experiencesData = [
     location: "Waterloo, Ontario",
     description: "Conducted research on novel sensor fusion techniques and their application in autonomous systems.",
     highlights: [
-      "Designed a novel sensor fusion algorithm for autonomous navigation",
-      "Implemented real-time data processing pipeline for multi-sensor systems",
-      "Published research findings in IEEE Robotics conference",
-      "Created open-source library for sensor fusion implementations"
+      "Designed and validated multi-layer PCBs for motor control applications, including a buck/boost converter and gyrostabilizer circuits.",
+      "Conducted analog circuit simulations using LTspice and MATLAB Simulink to optimize performance.",
+      "Collaborated with firmware engineers to ensure seamless hardware-software integration.",
+      "Performed hardware testing and debugging to improve reliability and efficiency of power systems."
     ]
   }
 ];
