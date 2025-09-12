@@ -172,10 +172,10 @@ export const experiencesData = [
     location: "Ottawa, Ontario",
     description: "Designed precision motion control systems for medical imaging and surgical equipment.",
     highlights: [
-      "Developed ultra-precise positioning system for MRI-compatible surgical robot",
-      "Reduced system noise by 65% through innovative damping solution",
-      "Created embedded control firmware for real-time operation",
-      "Contributed to FDA certification documentation for Class II medical device"
+      "Contributed to the redesign of the Battery Management System (BMS) Controller to improve reliability and performance.",
+      "Developed Battery Passports enabling efficient communication with the ECU over SPI protocol.",
+      "Designed and implemented indicator light systems for charging and discharging states.",
+      "Collaborated with the firmware and hardware teams to ensure seamless integration and testing of new features."
     ]
   },
   {
