@@ -170,7 +170,7 @@ export const experiencesData = [
     role: "Embedded Systems Engineer",
     duration: "May 2024 - August 2024",
     location: "Ottawa, Ontario",
-    description: "Designed precision motion control systems for medical imaging and surgical equipment.",
+    description: "Designed, developed, and optimized hardware-software systems, integrating microcontrollers, sensors, and communication protocols for embedded applications",
     highlights: [
       "Contributed to the redesign of the Battery Management System (BMS) Controller to improve reliability and performance.",
       "Developed Battery Passports enabling efficient communication with the ECU over SPI protocol.",
