@@ -183,7 +183,7 @@ export const experiencesData = [
     role: "PCB Hardware Designer",
     duration: "September 2023 - December 2023",
     location: "Waterloo, Ontario",
-    description: "Conducted research on novel sensor fusion techniques and their application in autonomous systems.",
+    description: "Specialized in designing and testing multi-layer PCB hardware for power electronics and motor control systems.",
     highlights: [
       "Designed and validated multi-layer PCBs for motor control applications, including a buck/boost converter and gyrostabilizer circuits.",
       "Conducted analog circuit simulations using LTspice and MATLAB Simulink to optimize performance.",
