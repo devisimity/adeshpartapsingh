@@ -180,7 +180,7 @@ export const experiencesData = [
   },
   {
     company: "Accelerated Systems Inc",
-    role: "Graduate Research Assistant",
+    role: "PCB Hardware Designer",
     duration: "September 2023 - December 2023",
     location: "Waterloo, Ontario",
     description: "Conducted research on novel sensor fusion techniques and their application in autonomous systems.",
